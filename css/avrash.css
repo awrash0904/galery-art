@@ -1,0 +1,345 @@
+body {
+
+background-image:url(pict/backavr.png);
+background-repeat:no-repeat;
+background-position:center 0px;
+background-size: cover;
+height: 3000px;
+}
+h6{
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 300;
+}
+.wrapper{	height: 1500px;
+	width: auto;
+	background-image: url(pict/cont.png);
+	background-repeat:no-repeat;
+	background-position:center 0px;
+}
+.block{
+}
+
+.block__row{
+	display: flex; /*выстроятся в ряд остался блочным не передвигаются*/
+	/*justify-content: flex-start; асполаг в начале */
+	/*justify-content: flex-end; /*располаг в конце*/
+	justify-content: space-between;
+	flex-wrap: wrap;
+     
+	
+}
+
+
+.block__item1{
+	    width: auto;
+    background-image: url(pict/avr.png);
+    background-repeat: no-repeat;
+    background-position: left 0px;
+    background-color: #18b5a400;
+    padding: 356px 360px;
+    font-size: 50px;
+    color: white;
+    height: 9px;
+    font-weight: 700
+}
+.block_row_item2{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 196px 224px 113px 32px;
+    
+}
+.item2{
+
+    font-family: 'Courier Prime', monospace;
+    font-size: 42px;
+    padding-left: 16px;
+    color: black;
+    font-weight: lighter;
+      letter-spacing: 3px;
+}
+
+.wrapper2{
+  position: fixed;
+    bottom: 153px;
+    left: 30px;
+    height: auto;
+    width: 43%;
+    padding: 10%;}
+
+.inst{
+    width: 23%;
+    top: -10px;
+    position: absolute;
+    left: 14px;
+  filter: saturate(100)grayscale(100%);
+
+
+}
+.pint{
+    width: 23%;
+    top: 50px;
+    position: absolute;
+    left: 14px;
+    
+}
+.tel{
+    width: 23%;
+    top: 110px;
+    position: absolute;
+    left: 14px;
+    
+}
+.be{
+    width: 23%;
+    top: 160px;
+    position: absolute;
+    left: 14px;
+   
+}
+#navbar {
+  background-color: #f6ede757;;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  height: 70px;
+  display: block;
+  transition: top 0.3s;
+}
+
+
+.wrapper1 {
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    padding: 26px;
+}
+
+
+.logo{
+ width: 31%;
+    top: -9px;
+    position: absolute;
+}
+label .menu {
+  position: absolute;
+  right: -192px;
+    top: 10px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #c3c7c6;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 #9ca5b1, 0 0 0 0 #b6b6c5;
+  
+}
+
+
+
+label .hamburger {
+     position: absolute;
+    top: 24px;
+    left: -59px;
+    width: 33px;
+    height: 4px;
+  background: #000000;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+label .hamburger:before { top: -10px; }
+
+label .hamburger:after { bottom: -10px; }
+
+label input { display: none; }
+
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw #c8ccca, 0 0 0 100vh ;
+  border-radius: 100%;
+  
+}
+
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+}
+
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+  
+}
+
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+  
+}
+
+label input:checked + .menu + ul { opacity: 1; }
+
+label ul {
+  z-index: 200;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+}
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+  color: red;
+  text-decoration: none;
+  
+}
+
+/*блок 1*/
+.w{	height: 1500px;
+	
+	background-repeat:no-repeat;
+	background-position:center 0px;
+}
+.bl{
+}
+
+.block__row__1{
+	display: flex; 
+	flex-wrap: wrap;
+     border:20px solid yellow;
+	margin:0px 0px 20px 0px;
+}
+
+.block__column__1{
+  border: 20px solid black;
+}
+
+.block__item1__1{
+   background-color: red;
+    padding: 289px 146px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.block__item2{
+    background-color: red;
+    font-size: 50px;
+    padding: 80px 0px 0px;
+    color: white;
+    font-weight: 700;
+}
+.block__item3{
+      display: flex;
+    background-color: red;
+    padding: 81px 16px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    flex-direction: column;
+}
+.block__item3-1{
+   background-color: blue;
+    padding: 78px 249px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.block__item3-2{
+    background-color: pink;
+    padding: 160px 68px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.block__item2-1{
+   background-color: blue;
+    padding: 78px 249px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.block__item2-2{
+    background-color: pink;
+    padding: 160px 68px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+/*блок 2*/
+.block__column_2{
+  border: 30px solid black;
+}
+.block__item_2 {
+    background-color: red;
+    font-size: 50px;
+        padding: 79px 450px 557px;
+    color: white;
+    font-weight: 700;
+}
+.block__item_2-1 {
+    background-color: red;
+    padding: 289px 210px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+/*блок3*/
+.block__column_3{
+  border: 11px solid black;
+}
+.block__item_3-2 {
+    background-color: red;
+    font-size: 50px;
+    padding: 444px 330px 0px 0px;
+    color: white;
+    font-weight: 700;
+}
+.block__item_3-1 {
+    background-color: red;
+    font-size: 50px;
+    padding: 444px 330px 0px 0px;
+    color: white;
+    font-weight: 700;
+}
+.block__item_3-3 {
+    background-color: red;
+    font-size: 50px;
+    padding: 444px 330px 0px 0px;
+    color: white;
+    font-weight: 700;
+}
+.block__item_3-4 {
+    background-color: red;
+    font-size: 50px;
+    padding: 444px 285px 0px 0px;
+    color: white;
+    font-weight: 700;
+}
+    
